@@ -28,5 +28,5 @@ The success screen is diplayed once more and the regenerated token can be copied
 
 If the token is compromised, it can be revoked, which removes the token from the PAT list.
 
-You now have a Personal access token to access your Repo, so the next step is to start working with the Repo locally. Click **Azure DevOps** in the top left of the page to take you to your Azure DevOps Organisation home, choose the project that you created earlier, **dotnetcoredemo** and you are returned to the project page with the resources for the project listed in the menu on the left. Click **Repos** on this menu to enter the empty repository page. The repository is currently empty, you can choose initialise it with some common repository files.
+You now have a Personal access token to access your Repo, so the next step is to start working with the Repo locally.
 
