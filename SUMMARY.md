@@ -11,5 +11,6 @@
 * [Pushing an existing repository from the command line](pushing-an-existing-repository-from-the-command-line.md)
 * [Working with GitHub](working-with-github.md)
 * [Create Pipeline for ADO](create-pipeline-for-azure-devops.md)
+* [Create Release Pipeline for ADO](create-release-pipeline-for-ado.md)
 * [Conclusion](conclusion.md)
 
