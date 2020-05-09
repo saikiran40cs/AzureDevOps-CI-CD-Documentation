@@ -6,4 +6,9 @@
 * [Create Personal Access Token](create-personal-access-token.md)
 * [Create Repository](create-repository.md)
 * [Cloning the Azure Repository](cloning-the-azure-repository.md)
+* [Saving changes with commit and push](saving-changes-with-commit-and-push.md)
+* [Updating Code with fetch and pull](updating-code-with-fetch-and-pull.md)
+* [Pushing an existing repository from the command line](pushing-an-existing-repository-from-the-command-line.md)
+* [Working with GitHub](working-with-github.md)
+* [Conclusion](conclusion.md)
 
