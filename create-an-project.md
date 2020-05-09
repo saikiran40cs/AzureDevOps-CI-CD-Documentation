@@ -4,6 +4,8 @@ description: How to create an project in Azure DevOps
 
 # Create an Project
 
+In this step we will setup a project within Azure DevOps. An Azure DevOps project can be either public or private, where private projects require a user to be invited before the project can be viewed, cloned or contributed to.
+
  To setup a project, open a browser and navigate to [Azure DevOps](http://dev.azure.com/) and login the credentials which you used to create the Azure DevOps organisation in the prerequisites.
 
 ![](.gitbook/assets/step1-azuredevops-createorg.png)
