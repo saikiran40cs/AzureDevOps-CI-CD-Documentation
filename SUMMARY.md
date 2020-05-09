@@ -10,6 +10,6 @@
 * [Updating Code with fetch and pull](updating-code-with-fetch-and-pull.md)
 * [Pushing an existing repository from the command line](pushing-an-existing-repository-from-the-command-line.md)
 * [Working with GitHub](working-with-github.md)
-* [Create Pipeline for Azure DevOps](create-pipeline-for-azure-devops.md)
+* [Create Pipeline for ADO](create-pipeline-for-azure-devops.md)
 * [Conclusion](conclusion.md)
 
