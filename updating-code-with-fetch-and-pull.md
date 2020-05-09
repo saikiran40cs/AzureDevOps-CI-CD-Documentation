@@ -8,21 +8,21 @@ Distributed version control systems such as Azure Repos enable teams of develope
 
 To simulate another developer making a change and pushing it to the Azure Repo, switch back to the Azure DevOps portal, click **Files** under the **Repos** menu item on the left hand side, and click on the README.md filename to open the file in **Preview**:
 
-![Azure DevOps Repos File Preview](https://csprodstorage001.blob.core.windows.net/blog/step4-fetchpull-preview.png)
+![Azure DevOps Repos File Preview](.gitbook/assets/step4-fetchpull-preview.png)
 
 If Azure DevOps knows how to display a filetype, such as Markdown, it will open in file preview, formatting the file appropriately. To edit the file click **Edit** top right:
 
-![Azure DevOps Repos File Preview Edit](https://csprodstorage001.blob.core.windows.net/blog/step4-fetchpull-edit.png)
+![Azure DevOps Repos File Preview Edit](.gitbook/assets/step4-fetchpull-edit.png)
 
 Edit the file and change the heading **Getting Started**, click **Commit** in the top right, you will now be prompted to enter a commit message:
 
-![Azure DevOps Repos Commit Message](https://csprodstorage001.blob.core.windows.net/blog/step4-fetchpull-commitmessage.png)
+![Azure DevOps Repos Commit Message](.gitbook/assets/step4-fetchpull-commitmessage.png)
 
 Enter your commit message and click **Commit** at the bottom, in the background Azure DevOps is executing the same `git commit -m` command you used in an earlier step. The difference being that Azure DevOps is commiting the change to the Azure Repo and not locally. So if you switch back to VSCode and edit the README.md file, you will see that the heading still says Getting Started.
 
 The local repository and the Azure Repo are now out of synch, to have the change reflected in the local repository you _pull_ the changes to your local repository. This will execute a `git fetch` and a `git merge`:
 
-![Azure DevOps Repos Commit Message](https://csprodstorage001.blob.core.windows.net/blog/step4-fetchpull-pull.png)
+![Azure DevOps Repos Commit Message](.gitbook/assets/step4-fetchpull-pull.png)
 
 The change made in Azure DevOps has now been pulled down to the local repository, if you switch back to VSCode, the change to the header line is now visible.
 
